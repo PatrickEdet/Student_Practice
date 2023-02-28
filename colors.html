@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Css-Tutorial</title>
+    <link rel="stylesheet" href="/styles/colors.css">
+    <script src="colors.js" defer></script>
+</head>
+
+<body>
+    <h1>CSS Colors</h1>
+
+    <h2>rgb(red, green, blue)</h2>
+
+
+    <p>Each parameter (red, green, and blue) defines the intensity of the color between 0 and 255.
+    </p>
+    <p>For example, rgb(255, 0, 0) is displayed as red, because red is set to its highest value (255) and the others
+        are set to 0.
+    </p>
+    <p>To display black, set all color parameters to 0, like this: rgb(0, 0, 0).
+    </p>
+    <p>To display white, set all color parameters to 255, like this: rgb(255, 255, 255).
+    </p>
+    <p>Experiment by mixing the RGB values below:
+    </p>
+
+    <div class="experiment">
+        <div id="colorDisplay">
+        </div>
+
+        <!-- 
+        RGB(0)
+     -->
+
+        <div class="control_container">
+            <div class="control">
+                <label for="red">Red</label>
+                <input type="range" name="redSlider" id="red" min="0" max="255" value="255">
+                <span id="redSliderValue">0</span>
+            </div>
+            <div class="control">
+                <label for="green">Green</label>
+                <input type="range" name="greenSlider" id="green" min="0" max="255" value="0">
+                <span id="greenSliderValue">0</span>
+            </div>
+            <div class="control">
+                <label for="blue">Blue</label>
+                <input type="range" name="blueSlider" id="blue" min="0" max="255" value="0">
+                <span id="blueSliderValue">0</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
