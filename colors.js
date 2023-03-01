@@ -1,3 +1,7 @@
+
+
+
+
 const colorDisplay = document.getElementById('colorDisplay')
 
 const redSliderValue = document.getElementById('redSliderValue')
@@ -42,3 +46,5 @@ window.addEventListener('load', () => {
     updateSliderValue('green', greenSliderValue)
     updateSliderValue('blue', blueSliderValue)
 })
+
+
